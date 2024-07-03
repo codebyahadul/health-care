@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import Logo from '../../assets/logo dark.png';
+import Logo from '../assets/logo dark.png';
 import { MdArrowOutward } from "react-icons/md";
 import { useRef, useState } from 'react';
 const Navbar = () => {

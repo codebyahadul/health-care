@@ -2,6 +2,9 @@ import BannerPic from '../../assets/banner.png';
 import Statistic from '../../assets/statistic.png';
 import video from '../../assets/video.png';
 import Certificate from '../../assets/certificate.png';
+import Person1 from '../../assets/person1.png';
+import Person2 from '../../assets/person2.png';
+import Person3 from '../../assets/person3.png';
 import Coin from '../../assets/coin.png';
 import { FaStar } from 'react-icons/fa';
 const Banner = () => {
@@ -43,8 +46,11 @@ const Banner = () => {
                         <FaStar className='text-[#FFE03D]' size={30} />
                     </div>
                     <p className='w-3/4'>Board-certified doctors</p>
-                    <div className='flex justify-end'>
-                        {/* <img src={Certificate} alt="" /> */}
+                    <div className='flex'>
+                        <img src={Person1} alt="" />
+                        <img className='-ml-4' src={Person2} alt="" />
+                        <img className='-ml-3' src={Person3} alt="" />
+ 
                     </div>
                 </div>
                 <div className='p-5 bg-[#fffff5] row-span-2'>
