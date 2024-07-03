@@ -11,7 +11,7 @@ const Offer = () => {
                     <div className="w-full relative">
                         <img className="absolute mt-5 md:mt-20 right-3 md:right-10 w-10 md:w-36 " src={Logo} alt="" />
                     </div>
-                    <div className=" w-full flex items-center h-full ml-5 md:ml-20">
+                    <div className=" w-full flex items-center h-full ml-0 md:ml-20">
                         <div className="w-full md:w-1/2 space-y-1 md:space-y-5">
                             <div className="text-lg md:text-2xl lg:text-4xl text-white font-semibold space-y-1 md:space-y-3">
                                 <h1>Get Your</h1>
