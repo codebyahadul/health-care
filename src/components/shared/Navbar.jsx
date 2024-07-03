@@ -41,7 +41,7 @@ const Navbar = () => {
     const [dropDownState, setDropDownState] = useState(false);
     const dropDownMenuRef = useRef();
     return (
-        <div className="my-2 md:my-3 lg:my-6">
+        <div className="pt-2 md:pt-3 lg:pt-6">
             <nav className="flex items-center justify-between px-4 py-2 mb-24">
                 <div className='cursor-pointer'>
                     <img src={Logo} alt="" />
