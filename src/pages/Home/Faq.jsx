@@ -11,7 +11,7 @@ const Faq = () => {
     { title: "How can I schedule an appointment?", description: "Our return policy allows you to return items within 30 days of purchase. Please visit our returns page for detailed instructions and to initiate a return.", },
     { title: "Do you accept insurance?", description: "Yes, you can change your shipping address before your order is shipped. Go to your account settings and update the shipping information accordingly.", },
     { title: "What should I bring to my appointment?", description: "We appreciate our loyal customers! Stay tuned for exclusive discounts, promotions, and special offers available to members of our loyalty program.", },
-    { title: "Do you offer telemedicine appointments?", description: "We appreciate our loyal customers! Stay tuned for exclusive discounts, promotions, and special offers available to members of our loyalty program.", },
+    { title: "Do you offer telemedicine appointments?", description: "We appreciate our loyal customers! Stay tuned for exclusive discounts, promotions, and special offers available to members of our loyalty.", },
     ];
     const toggle = (idx) => {
         setIsOpen((prevIdx) => (prevIdx === idx ? null : idx))
